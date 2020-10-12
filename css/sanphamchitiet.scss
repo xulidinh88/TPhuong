@@ -1,0 +1,617 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix{
+    overflow:hidden;
+    clear:both;
+}
+body{
+    background-color:#ffffff;
+    a{
+        text-decoration:none !important;
+    }
+    header{
+        .container-fluid{
+            margin:0;
+            padding:0;
+            .header_content--1{
+                background-color:#231F20;
+                i.fa:before {
+                    font-size:normal;
+                }
+                nav.nav1{
+                    width:90%;
+                    display:block;
+                    margin:0 auto;
+                    ul{
+                        margin-bottom:0;
+                        list-style-type: none;
+                        float:right;
+                        li{
+                            padding:10px 20px;
+                            float:left;
+                            position:relative;
+                            text-align:center;
+                            a{
+                                font-weight:bold;
+                                color:#ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+            .container{
+                width:90%;
+                .header_content--2{
+                    background-color:#ffffff;
+                    padding:20px 0px;
+                    display:flex;
+                    .logo{
+                        width:20%;
+                        float:left;
+                        img{
+                            width:100%;
+                        }
+                    }
+                    nav.nav2{
+                        width:80%;
+                        float:left;
+                        .contain_nav2--ul{
+                            width:90%;
+                            float:right;
+                            ul.nav2--ul{
+                                float:right;
+                                list-style-type:none;
+                                line-height:2;
+                                li{
+                                    display:inline-block;
+                                    float:left;
+                                    padding:16px;
+                                    a{
+                                        display:block;
+                                        float:left;
+                                        padding:0 10px;
+                                        font-size:16px;
+                                        font-weight:bold;
+                                        color:#060505;
+                                    }
+                                }
+                                li.color{
+                                    a{
+                                        color:#C31000;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section{
+        .turn-head{
+            text-align:center;
+            padding:5px;
+            position:fixed;
+            color:#9f9b9b;
+            right:8px;
+            bottom:23px;
+            cursor: pointer;
+        }
+        margin:0;
+        .container-fluid{
+            padding:0;
+            margin:0;
+            .breadcrumbs{
+                width:90%;
+                margin:0 auto;
+                display:block;
+                ol.breadcrumb{
+                    background-color:#ffffff;
+                    padding:10px;
+                    li{
+                        color:#000000;
+                        font-weight:bold;
+                        a{
+                            color:#000000;
+                            font-weight:bold;
+                        }
+                    }
+                }
+            }
+            .contain-sanpham{
+                width:89%;
+                display:block;
+                margin: 20px auto 0px;
+                .content_1{
+                    margin:20px 0px 50px;
+                    border-bottom:1px solid #ebebeb;
+                    .content_1--left{
+                        .product_image--side,.product_image--main{
+                            img{
+                                float:left;
+                                margin:15px 0px;
+                                width:100%;
+                            }
+                        }
+                    }
+                    .content_1--right{
+                        h3{
+                            font-weight:bold;
+                        }
+                        h3.price{
+                            font-weight:normal;
+                            margin:10px 0px 30px;
+                        }
+                        h5{
+                            font-weight: bold;
+                            margin:10px 0;
+                            span a{
+                                font-weight:normal;
+                                color:#000000;
+                                margin:0px 10px;
+                                padding:5px;
+                            }
+                        }
+                        button{
+                            background-color:#000000;
+                            color:#ffffff;
+                            width:100%;
+                            padding:15px;
+                            box-shadow: 0;
+                            border:0;
+                            border-radius:0;
+                            margin:20px 0px;
+                        }
+                        p.note:before{
+                            content: "";
+                            width:5px;
+                            height:5px;
+                            padding:0px 7px;
+                            margin-right:5px;
+                            background-color:red;
+                        }
+                        ul{
+                            margin-left:15px;
+                        }
+                        i.details{
+                            display:block;
+                            margin:20px 0px;
+                        }
+                        small.under_i--details{
+                            font-weight:bold;
+                        }
+                    }
+                }
+                .content_2{
+                    padding:20px 0px 50px;
+                    border-bottom:1px solid #ebebeb;
+                    h2{
+                        text-align:center;
+                        color:#000000;
+                    }
+                    .content_2--slide-collection{
+                        ul{
+                            list-style-type: none;
+                            display:block;
+                            margin:0 auto;
+                                    li{
+                                        display:inline-block;
+                                        text-align:center;
+                                        width:13.5%;
+                                        margin:1.5%;
+                                        float:left;
+                                        img{
+                                            width:100%;
+                                        }
+                                        h4{
+                                            width:100%;
+                                            margin:5px 0px;
+                                            padding:0;
+                                            font-weight:bold;
+                                            color:#000000;
+                                        }
+                                        h5{
+                                            width:100%;
+                                            margin:10px 0px;;
+                                            padding:0;
+                                            font-weight:bold;
+                                            color:#000000;
+                                        }
+                                        span i{
+                                            width:100%;
+                                            margin:5px 0px 15px;
+                                            padding:0;
+                                            font-weight:bold;
+                                        }
+                                        button{
+                                            width:100%;
+                                            display:block;
+                                            margin:0 auto;
+                                            background-color:#000000;
+                                            color:#ffffff;
+                                            font-weight:bold;
+                                            padding:15px 35px;
+                                            border-radius:0;
+                                }
+                            }
+                        }
+                        .turn-left-right{
+                            display: flex;
+                            justify-content: center;
+                            a.turn-left,a.turn-right{
+                                background-color:#000000;
+                                color:#ffffff;
+                                width:3%;
+                                display:inline-block;
+                                float:left;
+                                font-size:40px;
+                                margin:0px 20px;
+                                i:before{
+                                    margin-left:8px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .content_3{
+                    padding:40px 0px 70px;
+                    h2{
+                        text-align:center;
+                        color:#000000;
+                    }
+                    .best_sale{
+                        ul{
+                            list-style-type: none;
+                            display:block;
+                            margin:0 auto;
+                                    li{
+                                        display:inline-block;
+                                        text-align:center;
+                                        width:12.5%;
+                                        margin:1.5%;
+                                        float:left;
+                                        img{
+                                            width:100%;
+                                        }
+                                        h4{
+                                            margin:5px 0px;;
+                                            padding:0;
+                                            font-weight:bold;
+                                            color:#000000;
+                                        }
+                                        h5{
+                                            margin:10px 0px;;
+                                            padding:0;
+                                            font-weight:bold;
+                                            color:#000000;
+                                        }
+                                        span i{
+                                            margin:5px 0px 15px;
+                                            padding:0;
+                                            font-weight:bold;
+                                        }
+                                        button{
+                                            display:block;
+                                            margin:0 auto;
+                                            background-color:#101010;
+                                            color:#ffffff;
+                                            font-weight:bold;
+                                            padding:15px 35px;
+                                            border-radius:0;
+                                }
+                            }
+                            li.turn-left,li.turn-right{
+                                margin:100px 0px !important;
+                                a{
+                                    font-size:25px;
+                                    color:#000000;
+                                }
+                                width:3%;
+                            }
+                        }
+                    }
+                }
+                .product_fixed{
+                    width:300px;
+                    height:500px;
+                    padding:10px 20px;
+                    position:fixed;
+                    right:0;
+                    top:15%;
+                    z-index:10000;
+                    box-shadow: -2px 2px 2px #88888836;
+                    background-color:#FEFEFE;
+                    .product_fixed--head{
+                        h5.h5-left{
+                            display:inline-block;
+                            width:50%;
+                            text-align:left;
+                            float:left;
+                        }
+                        a.a-right{
+                            line-height:3;
+                            display:inline-block;
+                            width:30%;
+                            text-align:right;
+                            float:right;
+                        }
+
+                    }
+                    .product_fixed--body{
+                        margin:10px 0px;
+                        .detail_product--1{
+                            display:flex;
+                            .image-product{
+                                width:40%;
+                                border:1px solid #333333;
+                                padding:10px;
+                                img{
+                                    width:100%;
+                                }
+                            }
+                            .main--detail_product--1{
+                                padding:10px;
+                                width:60%;
+                                h4{
+                                    font-size:14px;
+                                    span{
+                                        margin-top:-5px;
+                                    }
+                                    font-weight:bold;
+                                }
+                                h5.price{
+                                    font-weight:bold;
+                                }
+                                span a{
+                                    margin:0px 15px;
+                                    color:#000000;
+                                    font-size:14px;
+                                }
+                            }
+                        }
+                        .detail_product--2{
+                            margin:15px;
+                            h5.tong_don_hang{
+                                display:inline-block;
+                                width:50%;
+                                text-align:left;
+                                float:left;
+                                font-weight:bold;
+                            }
+                            h5.price{
+                                display:inline-block;
+                                width:50%;
+                                text-align:right;
+                                float:right;
+                                font-weight:bold;
+                            }
+                        }
+                        .detail_product--3{
+                            button{
+                                width:100%;
+                                background-color:#000000;
+                                color:#ffffff;
+                                padding:10px;
+                            }
+                        }
+                        .detail_product--4{
+                            margin:15px 0px;
+                            ul{
+                                li{
+                                    font-size:15px;
+                                    font-weight:bold;
+                                    span img{
+                                        margin:5px 0px;
+                                    }
+                                }
+                                li.thu_tienCOD{
+                                    span img{
+                                        width:50%;
+                                    }
+                                }
+                                li.chuyen_khoan{
+                                    span img{
+                                        width:80%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        background-color:#EBEBEC;
+        .container-fluid{
+            background-color:#121212;
+            color:#ffffff;
+            .text-tphuong{
+                width:15%;
+                display:block;
+                margin:0 auto;
+                a img{
+                    padding:20px;
+                    width:100%;
+                }
+                color:#ffffff;
+            }
+        }
+        .main-footer{
+            .main-footer--1{
+                padding:20px 0px;
+                .row{
+                    .address{
+                        p{
+                            margin-bottom:0;
+                            font-size:12px;
+                        }
+                        a{
+                            display:inline-block;
+                            font-size:12px;
+                            color:#333333;
+                            &:hover{
+                                color:#428bca;
+                            }
+                        }
+                    }
+                    .ve-TPhuong{
+                        a{
+                            display:block;
+                            font-size:12px;
+                            color:#333333;
+                            &:hover{
+                                color:#428bca;
+                            }
+                        }
+                    }
+                    .hotline{
+                        p{
+                            margin-bottom:0;
+                            font-size:12px;
+                        }
+                    }
+                    .khuyenmai-lienket{
+                        margin:0;
+                        padding:0;
+                        .khuyenmai{
+                            width:100%;
+                            h4{
+                                display:block;
+                            }
+                            .contain-input{
+                                background-color:#ffffff;
+                                input{
+                                    border:0;
+                                    width:80%;
+                                    float:left;
+                                    padding:7px;
+                                    margin-left:0;
+                                    text-shadow: 0;
+                                }
+                                button{
+                                    line-height:27px;
+                                    width:20%;
+                                    float:right;
+                                    background-color:#121212;
+                                    color:#ffffff;
+                                    padding:4px;
+                                    border:0;
+                                    text-shadow: 0;
+                                    border-radius:0;
+                                }
+                            }
+                        }
+                        .lienket{
+                            a.icon-facebook{
+                                margin-right:8px;
+                            }
+                            a.icon-instagram{
+                                margin-left:8px;
+                            }
+                        }
+                    }
+                }
+            }
+            .main-footer--2{
+                .row{
+                    .thanhtoan{
+                        h4{
+
+                        }
+                        ul.list-thanhtoan{
+                            width:100%;
+                            display:flex;
+                            list-style-type: none;
+                            li{
+                                margin:5px;
+                                float:left;
+                                a{
+                                    img{
+                                        background-color:#ffffff;
+                                        width:100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .giaohang{
+                        padding:0 35px;
+                        .wrapper{
+                            display:grid;
+                            grid-template-columns:33.33% 33.33% 33.33%;
+                            grid-template-rows:25% 25% 25%;
+                            .item{
+                                a img{
+                                    width:100%;
+                                }
+                            }
+                            .item1{
+                                grid-column-start: 1;
+                                grid-column-end: 2;
+                                grid-row-start: 0;
+                                grid-row-start: 1;
+                            }
+                            .item2{
+                                grid-column-start: 2;
+                                grid-column-end: 3;
+                                grid-row-start: 0;
+                                grid-row-start: 1;
+                            }
+                            .item3{
+                                grid-column-start: 3;
+                                grid-column-end: 4;
+                                grid-row-start: 0;
+                                grid-row-start: 1;
+                            }
+                            .item4{
+                                grid-column-start: 1;
+                                grid-column-end: 2;
+                                grid-row-start: 1;
+                                grid-row-start: 2;
+                            }
+                            .item5{
+                                grid-column-start: 2;
+                                grid-column-end: 3;
+                                grid-row-start: 1;
+                                grid-row-start: 2;
+                            }
+                            .item6{
+                                grid-column-start: 3;
+                                grid-column-end: 4;
+                                grid-row-start: 1;
+                                grid-row-start: 2;
+                            }
+                            .item7{
+                                grid-column-start: 2;
+                                grid-column-end: 3;
+                                grid-row-start:2;
+                                grid-row-start: 3;
+                            }
+                        }
+                    }
+                    .chung-nhan{
+                        margin:0;
+                        padding:0;
+                        img.icon-dadangky{
+                            width:49%;
+                            float:left;
+
+                        }
+                        img.icon-dathongbao{
+                            width:49%;
+                            float:right;
+                        }
+                    }
+                }
+            }
+            h5.copyright{
+                text-align:center;
+                font-weight:bold;
+                padding-bottom:10px;
+            }
+        }
+    }
+}

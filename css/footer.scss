@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix{
+    overflow:hidden;
+    clear:both;
+}
+body{
+    overflow:hidden;
+    a{
+        text-decoration:none !important;
+    }
+    .row{
+        margin:0;
+        padding:0;
+    }
+    footer{
+        background-color:#EBEBEC;
+        .container-fluid{
+            background-color:#121212;
+            color:#ffffff;
+            .text-tphuong{
+                width:15%;
+                display:block;
+                margin:0 auto;
+                a img{
+                    padding:20px;
+                    width:100%;
+                }
+                color:#ffffff;
+            }
+        }
+        .main-footer{
+            .main-footer--1{
+                padding:20px 0px;
+                .row{
+                    .address{
+                        p{
+                            margin-bottom:0;
+                            font-size:12px;
+                        }
+                        a{
+                            display:inline-block;
+                            font-size:12px;
+                            color:#333333;
+                            &:hover{
+                                color:#428bca;
+                            }
+                        }
+                    }
+                    .ve-TPhuong{
+                        a{
+                            display:block;
+                            font-size:12px;
+                            color:#333333;
+                            &:hover{
+                                color:#428bca;
+                            }
+                        }
+                    }
+                    .hotline{
+                        p{
+                            margin-bottom:0;
+                            font-size:12px;
+                        }
+                    }
+                    .khuyenmai-lienket{
+                        margin:0;
+                        padding:0;
+                        .khuyenmai{
+                            width:100%;
+                            h4{
+                                display:block;
+                            }
+                            .contain-input{
+                                background-color:#ffffff;
+                                input{
+                                    border:0;
+                                    width:80%;
+                                    float:left;
+                                    padding:7px;
+                                    margin-left:0;
+                                    text-shadow: 0;
+                                }
+                                button{
+                                    line-height:27px;
+                                    width:20%;
+                                    float:right;
+                                    background-color:#121212;
+                                    color:#ffffff;
+                                    padding:4px;
+                                    border:0;
+                                    text-shadow: 0;
+                                    border-radius:0;
+                                }
+                            }
+                        }
+                        .lienket{
+                            a.icon-facebook{
+                                margin-right:8px;
+                            }
+                            a.icon-instagram{
+                                margin-left:8px;
+                            }
+                        }
+                    }
+                }
+            }
+            .main-footer--2{
+                .row{
+                    .thanhtoan{
+                        h4{
+
+                        }
+                        ul.list-thanhtoan{
+                            width:100%;
+                            display:flex;
+                            list-style-type: none;
+                            li{
+                                margin:5px;
+                                float:left;
+                                a{
+                                    img{
+                                        background-color:#ffffff;
+                                        width:100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .giaohang{
+                        padding:0 35px;
+                        .wrapper{
+                            display:grid;
+                            grid-template-columns:33.33% 33.33% 33.33%;
+                            grid-template-rows:25% 25% 25%;
+                            .item{
+                                a img{
+                                    width:100%;
+                                }
+                            }
+                            .item1{
+                                grid-column-start: 1;
+                                grid-column-end: 2;
+                                grid-row-start: 0;
+                                grid-row-start: 1;
+                            }
+                            .item2{
+                                grid-column-start: 2;
+                                grid-column-end: 3;
+                                grid-row-start: 0;
+                                grid-row-start: 1;
+                            }
+                            .item3{
+                                grid-column-start: 3;
+                                grid-column-end: 4;
+                                grid-row-start: 0;
+                                grid-row-start: 1;
+                            }
+                            .item4{
+                                grid-column-start: 1;
+                                grid-column-end: 2;
+                                grid-row-start: 1;
+                                grid-row-start: 2;
+                            }
+                            .item5{
+                                grid-column-start: 2;
+                                grid-column-end: 3;
+                                grid-row-start: 1;
+                                grid-row-start: 2;
+                            }
+                            .item6{
+                                grid-column-start: 3;
+                                grid-column-end: 4;
+                                grid-row-start: 1;
+                                grid-row-start: 2;
+                            }
+                            .item7{
+                                grid-column-start: 2;
+                                grid-column-end: 3;
+                                grid-row-start:2;
+                                grid-row-start: 3;
+                            }
+                        }
+                    }
+                    .chung-nhan{
+                        margin:0;
+                        padding:0;
+                        img.icon-dadangky{
+                            width:49%;
+                            float:left;
+
+                        }
+                        img.icon-dathongbao{
+                            width:49%;
+                            float:right;
+                        }
+                    }
+                }
+            }
+            h5.copyright{
+                text-align:center;
+                font-weight:bold;
+                padding-bottom:10px;
+            }
+        }
+    }
+}

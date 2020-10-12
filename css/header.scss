@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix{
+    overflow:hidden;
+    clear:both;
+}
+body{
+    background-color:#ffffff;
+    a{
+        text-decoration:none !important;
+    }
+    header{
+        .container-fluid{
+            margin:0;
+            padding:0;
+            .header_content--1{
+                background-color:#231F20;
+                i.fa:before {
+                    font-size:normal;
+                }
+                nav.nav1{
+                    width:90%;
+                    display:block;
+                    margin:0 auto;
+                    ul{
+                        margin-bottom:0;
+                        list-style-type: none;
+                        float:right;
+                        li{
+                            padding:10px 20px;
+                            float:left;
+                            position:relative;
+                            text-align:center;
+                            a{
+                                font-weight:bold;
+                                color:#ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+            .container{
+                width:90%;
+                .header_content--2{
+                    background-color:#ffffff;
+                    padding:20px 0px;
+                    display:flex;
+                    .logo{
+                        width:20%;
+                        float:left;
+                        img{
+                            width:100%;
+                        }
+                    }
+                    nav.nav2{
+                        width:80%;
+                        float:left;
+                        .contain_nav2--ul{
+                            width:90%;
+                            float:right;
+                            ul.nav2--ul{
+                                float:right;
+                                list-style-type:none;
+                                line-height:2;
+                                li{
+                                    display:inline-block;
+                                    float:left;
+                                    padding:18px;
+                                    a{
+                                        display:block;
+                                        float:left;
+                                        padding:0 10px;
+                                        font-size:16px;
+                                        font-weight:bold;
+                                        color:#000000;
+                                    }
+                                }
+                                li.color{
+                                    a{
+                                        color:#C31000;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
